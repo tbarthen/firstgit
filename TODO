@@ -2,6 +2,7 @@ more stuff
 even more
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 blah blah blah
 =======
 
@@ -9,4 +10,8 @@ Only change
 >>>>>>> Stashed changes
 =======
 blah blah blah
+>>>>>>> Stashed changes
+=======
+
+Only change
 >>>>>>> Stashed changes

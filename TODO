@@ -1,5 +1,6 @@
 more stuff
 even more
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -15,3 +16,6 @@ blah blah blah
 
 Only change
 >>>>>>> Stashed changes
+=======
+new branch
+>>>>>>> bug-fix-1

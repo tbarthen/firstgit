@@ -28,20 +28,17 @@ javascript: (function() {
       ],
       function() {
         console.log("All things are loaded");
-        releasetheKraken();
+        filterResults();
       }
     );
   } else {
     console.log("got jq");
-    releasetheKraken();
+    filterResults();
     console.log("done calling");
   }
-  function releasetheKraken() {
-    console.log("The Kraken has been released, master!");
-    $(".g").css("background-color", "gray");
+  function filterResults() {
     var $context = $(".g:first").parent();
     console.log("g parent", $context.attr("class"));
-
     $context.children().css("background-color", "LightCyan");
 
     $context.sieve({
